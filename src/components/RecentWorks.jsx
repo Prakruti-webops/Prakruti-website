@@ -16,5 +16,5 @@ function RecentWorks() {
 
 }
 const recentWorksBG = 'assets/photos/recentWorksBG.png'
-const workStyle = { background: `pink url(${recentWorksBG}) no-repeat center`, backgroundSize: 'cover', textAlign: 'center', width: '100vw', paddingTop: '30px', marginBottom: '30px' }
+const workStyle = { background: `pink url(${recentWorksBG}) no-repeat center`, backgroundSize: 'cover', textAlign: 'center', paddingTop: '30px', marginBottom: '30px' }
 export default RecentWorks
