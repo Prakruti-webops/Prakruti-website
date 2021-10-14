@@ -1,9 +1,12 @@
 import React from 'react'
-import { FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaInstagram, FaLinkedinIn,FaChevronCircleUp } from 'react-icons/fa'
 function Footer() {
     const clubInsta = ''
     const clubLinkedIn = ''
     return (
+        <>
+        <a href="#"style={footerDownUp}><FaChevronCircleUp ></FaChevronCircleUp></a>
+        
         <footer style={footerStyle}id='contacts'>
             <img src="assets/photos/deer.png" alt="Deer" style={imgStyle} />
             
@@ -28,9 +31,14 @@ function Footer() {
             <p style={{textAlign:'center'}}>© PRAKRUTI 2021. All rights reserved.</p>
             
         </footer>
+        </>
     )
 }
-
+const footerDownUp = {
+    margin: '20px',
+    fontSize: '2.5rem',
+    color: 'rgb(248,249,250)'
+}
 const footerStyle = {
     position:'relative',
     background: 'rgb(248,249,250)',
@@ -59,5 +67,6 @@ const socialIconStyle = {
 }
 const nameStyle = {
     margin: '10px 0px'
+    
 }
 export default Footer
