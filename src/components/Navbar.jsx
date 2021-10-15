@@ -8,7 +8,6 @@ import {
 } from 'reactstrap';
 import {FaChevronCircleDown} from 'react-icons/fa'
 const NavBar = () => {
-
     const clubLogo = 'logo.png'
     const membersLogo = 'assets/photos/membersLogo.png'
     return (
@@ -26,13 +25,13 @@ const NavBar = () => {
                 </Nav>
 
             </Navbar>
-            <a href="#contacts"style={footerDownStyle}><FaChevronCircleDown ></FaChevronCircleDown></a>
+            <a href="#contacts"><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
         </div>
     );
 }
 const footerDownStyle = {
     margin: '20px',
-    fontSize: '2.5rem',
+    fontSize: '3rem',
     color: 'rgb(248,249,250)'
 }
 export default NavBar;

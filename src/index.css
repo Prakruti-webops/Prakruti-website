@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-image: url('bg.png');
+  background: rgb(0, 199, 139) url('bg.png') no-repeat center center;
+  background-size: cover;
   min-height: 100vh
 }
 
@@ -17,14 +18,32 @@ body {
   z-index: 3;
 }
 
-footer div {
-  margin-right: 60px;
-}
-
 .socLinks:hover {
   transform: scale(1.2)
 }
 
 footer h2 {
   font-weight: 800;
+  color: rgb(0, 129, 250)
 }
+
+
+/* Media query */
+
+@media only screen and (max-width:800px) {
+  footer {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+  footer>div {
+    flex-direction: column;
+  }
+  footer>div>div {
+    margin-bottom: 35px;
+  }
+  footer>p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width:450px) {}
