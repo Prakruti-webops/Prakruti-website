@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
 body {
   margin: 0;
-  background: rgb(0, 199, 139) url('bg.png') no-repeat center center;
+  /* background: rgb(0, 199, 139) url('bg.png') no-repeat center center; */
   background-size: cover;
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 .app {
@@ -27,7 +29,72 @@ footer h2 {
   color: rgb(0, 129, 250)
 }
 
+#main {
+  padding: 50px;
+  width: 900px;
+  height: 70vh;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  top: 90px;
+  z-index: -1;
+  margin: 60px auto;
+  border-radius: 10px;
+  /* height: 500px; */
+  height: max-content;
+  margin-bottom: 15px;
+  font-size: 20px;
 
+}
+
+.prakruti {
+  font-family: 'Finger Paint', cursive;
+  font-size: 80px;
+  background: -webkit-linear-gradient(rgb(13, 92, 52), rgba(82, 238, 243, 0.486), purple);
+  letter-spacing: 15px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, white, rgb(215, 253, 240));
+  z-index: 200;
+}
+
+.line {
+  height: 4px;
+  width: 100%;
+  background-color: black;
+}
+
+#mainDiv {
+  background: rgb(0, 199, 139) url('bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#birdsFooter {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.birds {
+  height: 100%;
+  background: rgba(197, 243, 229, 0) url('birds2.gif');
+  background-size: contain;
+  background-repeat: repeat;
+}
+#contactsIcon {
+  position: absolute;
+  margin-top: 120px;
+}
 /* Media query */
 
 @media only screen and (max-width:800px) {
@@ -46,4 +113,34 @@ footer h2 {
   }
 }
 
-@media only screen and (max-width:450px) {}
+@media only screen and (max-width:950px) {
+  .prakruti {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width:753px) {
+  #main {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width:670px) {
+  .prakruti {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width:469px) {
+  .prakruti {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width:600px) {
+  #main {
+    font-size: 15px;
+    padding: 25px;
+  }
+}
+@media only screen and (max-width:350px) {
+    #main {
+      margin-top: 120px;
+  }
+}

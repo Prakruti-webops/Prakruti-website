@@ -25,7 +25,7 @@ const NavBar = () => {
                 </Nav>
 
             </Navbar>
-            <a href="#contacts"><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
+            <a href="#contacts" id="contactsIcon"><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
         </div>
     );
 }
