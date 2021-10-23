@@ -1,10 +1,9 @@
-import {FaChevronCircleDown} from 'react-icons/fa'
+
 function MainWorks() {
     
 
     return (
         <div id='mainDiv'>
-            <a href="#contacts" id="contactsIcon"><FaChevronCircleDown ></FaChevronCircleDown></a>
             <div id='main' style={mainStyle}>
                 <h1 class="prakruti" style={{ color: 'WHITE', color: 'linear-gradient(red, yellow)' }}>PRAKRUTI</h1>
                 <p>The Nature Club of NIT Tiruchippalli</p>

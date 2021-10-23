@@ -4,9 +4,9 @@ function RecentWorks() {
 
     return (
         
-        <div id='recentWorks'style={ workStyle}>
+        <div id='recentWorks'style={workStyle}>
             <h1 style={{ color: 'WHITE', fontSize: '3rem' }}>FOLLOW US ON INSTAGRAM</h1>
-            <div style={{ margin: 'auto', width: '70vw' }} className="embedsocial-hashtag" data-ref="840db6dd36272bde865dbd30a2d082c7f7bd709c"></div>
+            <div style={{ margin: 'auto', width: '70vw' }}class="embedsocial-hashtag" data-ref="1a95d8f7c52033cedc6e8a8718fa8e4391513b62"></div>
 
         </div>
 

@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from 'react';
 import {
     Navbar,
     NavbarBrand,
@@ -6,31 +6,35 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
-import {FaChevronCircleDown} from 'react-icons/fa'
+import { FaChevronCircleDown } from 'react-icons/fa'
 const NavBar = () => {
+    const [path, setPath] = useState('/')
     const clubLogo = 'logo.png'
     const membersLogo = 'assets/photos/membersLogo.png'
+    const changePath = () => {
+        setPath('/members')
+        document.title = 'Prakruti NITT-Members'
+    }
     return (
-        <div style={{position: 'relative'}}>
+        <div style={{ position: 'relative' }}>
             <Navbar color="light" light expand="md">
-                <NavbarBrand href="/"><img src={clubLogo} alt='club logo' style={{ width: '15vw',minWidth:'150px' }} /></NavbarBrand>
+                <NavbarBrand href="/" onClick={changePath}><img src={clubLogo} alt='club logo' style={{ width: '15vw', minWidth: '150px' }} /></NavbarBrand>
 
                 <Nav className="ms-auto" navbar>
-
-                    <NavItem>
-                        <NavLink href="/members" ><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' style={{ width:'70px' }} /></h3></NavLink>
-                    </NavItem>
-
+                    {
+                        path === '/' ? <NavItem>
+                            <NavLink href="/members" onClick={changePath} ><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' style={{ width: '70px' }} /></h3></NavLink>
+                        </NavItem> : ''
+                    }
 
                 </Nav>
 
             </Navbar>
-            <a href="#contacts" id="contactsIcon"><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
+            <a href="#contacts" className='contactsIcon'><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
         </div>
     );
 }
 const footerDownStyle = {
-    margin: '20px',
     fontSize: '3rem',
     color: 'rgb(248,249,250)'
 }

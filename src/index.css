@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
-
 body {
   margin: 0;
   /* background: rgb(0, 199, 139) url('bg.png') no-repeat center center; */
@@ -45,7 +44,6 @@ footer h2 {
   height: max-content;
   margin-bottom: 15px;
   font-size: 20px;
-
 }
 
 .prakruti {
@@ -91,10 +89,14 @@ footer h2 {
   background-size: contain;
   background-repeat: repeat;
 }
-#contactsIcon {
-  position: absolute;
-  margin-top: 120px;
+
+.contactsIcon {
+  position: relative;
+  top: 200px;
+  left: 15px;
 }
+
+
 /* Media query */
 
 @media only screen and (max-width:800px) {
@@ -118,29 +120,34 @@ footer h2 {
     font-size: 3rem;
   }
 }
+
 @media only screen and (max-width:753px) {
   #main {
     font-size: 18px;
   }
 }
+
 @media only screen and (max-width:670px) {
   .prakruti {
     font-size: 2rem;
   }
 }
+
 @media only screen and (max-width:469px) {
   .prakruti {
     font-size: 1.3rem;
   }
 }
+
 @media only screen and (max-width:600px) {
   #main {
     font-size: 15px;
     padding: 25px;
   }
 }
+
 @media only screen and (max-width:350px) {
-    #main {
-      margin-top: 120px;
+  #main {
+    margin-top: 120px;
   }
 }
