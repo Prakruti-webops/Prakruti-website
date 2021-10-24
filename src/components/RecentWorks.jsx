@@ -23,6 +23,5 @@ const workStyle = {
      paddingTop: '30px',
      position:'relative',
      top:'90px',
-     zIndex:'-1'
     }
 export default RecentWorks

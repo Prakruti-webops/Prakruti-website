@@ -3,6 +3,7 @@ import NavBar from './components/Navbar'
 import Footer from './components/Footer';
 import RecentWorks from './components/RecentWorks';
 import MainWorks from './components/MainPoster';
+import MembersPage from './components/MembersPage'
 function App() {
   return (
     <div className="App">
@@ -13,10 +14,14 @@ function App() {
             <MainWorks></MainWorks>
             <RecentWorks></RecentWorks>
           </Route>
-          <Route exact path='/members'>
+          <Route path='/members'>
+            <MembersPage></MembersPage>
           </Route>
         </Switch>
       </Router>
+      <div id="birdsFooter">
+                <div className="birds"></div>
+      </div>
       <Footer></Footer>
     </div>
   );

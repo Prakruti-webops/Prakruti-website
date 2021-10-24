@@ -6,6 +6,19 @@ body {
   min-height: 100vh;
 }
 
+* {
+  cursor: url("https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-bird-tropical-vitaliy-gorbachev-blue-vitaly-gorbachev.png"), default;
+}
+
+::-webkit-scrollbar {
+  background: rgb(209, 255, 255);
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: pink;
+}
+
 .app {
   position: relative;
   min-height: 100vh;
@@ -94,6 +107,7 @@ footer h2 {
   position: relative;
   top: 200px;
   left: 15px;
+  z-index: 2;
 }
 
 
