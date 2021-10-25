@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MembersCard() {
+function MembersCard({ data }) {
     return (
         <div>
-            
+            {data.Name}
         </div>
     )
 }

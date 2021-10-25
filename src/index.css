@@ -8,6 +8,9 @@ body {
 
 * {
   cursor: url("https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-bird-tropical-vitaliy-gorbachev-blue-vitaly-gorbachev.png"), default;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -57,6 +60,9 @@ footer h2 {
   height: max-content;
   margin-bottom: 15px;
   font-size: 20px;
+  border-radius: 13px;
+  background: #e0e0e0;
+  box-shadow: 21px 21px 38px #21a572, -21px -21px 38px #21a572;
 }
 
 .prakruti {
@@ -90,7 +96,7 @@ footer h2 {
 
 #birdsFooter {
   width: 100vw;
-  height: 70px;
+  height: 5vh;
   position: fixed;
   bottom: 0;
   z-index: 1000;

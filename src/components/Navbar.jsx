@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
     Navbar,
     NavbarBrand,
@@ -6,29 +5,29 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
-import { FaChevronCircleDown } from 'react-icons/fa'
-const NavBar = () => {
-    // const [path, setPath] = useState('/')
+import { FaChevronCircleDown,FaHome } from 'react-icons/fa'
+const NavBar = ({currentPath,togglePath}) => {
+    
     const clubLogo = 'logo.png'
     const membersLogo = 'assets/photos/membersLogo.png'
-    const changePath = () => {
-        // setPath('/members')
-        // document.title = 'Prakruti NITT-Members'
-    }
+    
     return (
         <div >
             <Navbar color="light" light expand="md">
-                <NavbarBrand href="/" onClick={changePath}><img src={clubLogo} alt='club logo' style={{ width: '15vw', minWidth: '150px' }} /></NavbarBrand>
+                <NavbarBrand href="/" ><img src={clubLogo} alt='club logo' style={{ width: '15vw', minWidth: '100px',maxWidth:'150px' }} /></NavbarBrand>
 
                 <Nav className="ms-auto" navbar>
+                    
                     <NavItem>
-                            <NavLink href="/members" onClick={changePath} ><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' style={{ width: '70px' }} /></h3></NavLink>
-                        </NavItem>
+                        <NavLink href="/members" onClick={togglePath}><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' width='100px' /></h3></NavLink>
+                        {/* <NavLink href="/" onClick={togglePath}><h3 className='me-3'>Home<FaHome style={{width:'70px'}}/></h3></NavLink> */}
+                        
+                    </NavItem>
 
                 </Nav>
 
             </Navbar>
-            <a href="#contacts" className='contactsIcon'><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
+            <a href="#contacts" className='contactsIcon'><FaChevronCircleDown className='chevron'style={footerDownStyle}></FaChevronCircleDown></a>
         </div>
     );
 }

@@ -24,6 +24,7 @@ const mainStyle = {
     width: '70%',
     maxWidth: '1100px',
     borderRadius: '10px',
-    height: '65vh',
+    minHeight: '65vh',
+    wordWrap:'break-word'
 }
 export default MainWorks

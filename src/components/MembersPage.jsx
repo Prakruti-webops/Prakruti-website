@@ -7,7 +7,7 @@ function MembersPage() {
     return (
         <div style={memberPageStyle}>
             <h1 style={{textAlign:'center',color:'white',fontSize:'4rem',textShadow:'3px 3px 3px darkgreen'}}>MEMBERS</h1>
-            <div style={memberStyle}>
+            <div className='container'style={memberStyle}>
                 {membersList.map(members => (
                     <MembersCard key={members.Rollno} data={members}></MembersCard>
                 ))}
@@ -26,6 +26,6 @@ const memberPageStyle = {
 }
 const memberStyle = {
     display: 'grid',
-    gridTemplateColums: 'auto auto auto',
+    gridTemplateColumns: 'auto auto auto',
 }
 export default MembersPage
