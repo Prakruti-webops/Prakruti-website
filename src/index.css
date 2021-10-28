@@ -47,40 +47,55 @@ footer h2 {
 }
 
 #main {
-  padding: 50px;
   width: 900px;
-  height: 70vh;
+  height: 100vh;
   background-size: cover;
   text-align: center;
   padding-top: 30px;
   position: relative;
   top: 90px;
   z-index: -1;
-  margin: 60px auto;
+  margin: auto;
   border-radius: 10px;
-  /* height: 500px; */
-  height: max-content;
+  height: 500px;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .prakruti {
   font-family: 'Finger Paint', cursive;
-  font-size: 80px;
+  font-size: 95px;
   background: -webkit-linear-gradient(rgb(13, 92, 52), rgba(82, 238, 243, 0.486), purple);
   letter-spacing: 15px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+#prakrutiImg {
+  height: 100px;
+  position: relative;
+  bottom: -25px;
+}
+
 .navbar {
+  z-index: 2;
   position: fixed;
   top: 0;
   width: 100%;
   background-image: linear-gradient(to right, white, rgb(215, 253, 240));
-  z-index: 200;
+  height: 60px;
 }
 
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item .fas {
+  margin: 5px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
 .line {
   height: 4px;
   width: 100%;
@@ -203,57 +218,23 @@ footer h2 {
 	}
 }
 
+#birdsFooter {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+}
+
+.birds {
+  /* max-width: 250px; */
+  /* width: 100%; */
+  height: 100%;
+  background: rgba(197, 243, 229, 0) url('birds2.gif');
+  background-size: contain;
+  background-repeat: repeat;
+}
+#contactsIcon {
+  z-index: 1000;
+}
 /* Media query */
 
-@media only screen and (max-width:800px) {
-  footer {
-    font-size: 1rem;
-    word-wrap: break-word;
-  }
-  footer>div {
-    flex-direction: column;
-  }
-  footer>div>div {
-    margin-bottom: 35px;
-  }
-  footer>p {
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width:950px) {
-  .prakruti {
-    font-size: 3rem;
-  }
-}
-
-@media only screen and (max-width:753px) {
-  #main {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width:670px) {
-  .prakruti {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width:469px) {
-  .prakruti {
-    font-size: 1.3rem;
-  }
-}
-
-@media only screen and (max-width:600px) {
-  #main {
-    font-size: 15px;
-    padding: 25px;
-  }
-}
-
-@media only screen and (max-width:350px) {
-  #main {
-    margin-top: 120px;
-  }
-}

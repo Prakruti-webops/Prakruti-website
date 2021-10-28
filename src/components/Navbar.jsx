@@ -6,31 +6,57 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
-import { FaChevronCircleDown } from 'react-icons/fa'
 const NavBar = () => {
     // const [path, setPath] = useState('/')
     const clubLogo = 'logo.png'
     const membersLogo = 'assets/photos/membersLogo.png'
-    const changePath = () => {
-        // setPath('/members')
-        // document.title = 'Prakruti NITT-Members'
-    }
-    return (
-        <div >
-            <Navbar color="light" light expand="md">
-                <NavbarBrand href="/" onClick={changePath}><img src={clubLogo} alt='club logo' style={{ width: '15vw', minWidth: '150px' }} /></NavbarBrand>
-
-                <Nav className="ms-auto" navbar>
-                    <NavItem>
-                            <NavLink href="/members" onClick={changePath} ><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' style={{ width: '70px' }} /></h3></NavLink>
+    var navItems;
+    if (window.location.pathname == '/members') {
+        return (
+            <div style={{position: 'relative'}}>
+                <Navbar color="light" light expand="md">
+                    <NavbarBrand href="/"><img src={clubLogo} id='prakrutiImg' alt='club logo' style={{ minWidth:'150px' }} /></NavbarBrand>
+    
+                    <Nav className="ms-auto" navbar>
+    
+                        <NavItem>
+    
+                            <NavLink href="/" ><div sclassName='fas fa-home'></div></NavLink>
+                            <NavLink href="/members" ><div className='fas fa-users'></div><div className='line'></div></NavLink>
+                            {/* <NavLink href="/members" ><h3 className='me-3'><img src={membersLogo} alt='club logo' style={{ width:'70px' }} /></h3></NavLink> */}
                         </NavItem>
-
-                </Nav>
-
-            </Navbar>
-            <a href="#contacts" className='contactsIcon'><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
-        </div>
-    );
+    
+    
+                    </Nav>
+    
+                </Navbar>
+                
+            </div>
+        );
+    } else {
+        return (
+            <div style={{position: 'relative'}}>
+                <Navbar color="light" light expand="md">
+                    <NavbarBrand href="/"><img src={clubLogo} id='prakrutiImg' alt='club logo' style={{ minWidth:'150px' }} /></NavbarBrand>
+    
+                    <Nav className="ms-auto" navbar>
+    
+                        <NavItem>
+    
+                            <NavLink href="/" ><div className='fas fa-home'></div><div className='line'></div></NavLink>
+                            <NavLink href="/members" ><div className='fas fa-users'></div></NavLink>
+                            {/* <NavLink href="/members" ><h3 className='me-3'><img src={membersLogo} alt='club logo' style={{ width:'70px' }} /></h3></NavLink> */}
+                        </NavItem>
+    
+    
+                    </Nav>
+    
+                </Navbar>
+                
+            </div>
+        );
+    }
+    
 }
 const footerDownStyle = {
     fontSize: '3rem',
