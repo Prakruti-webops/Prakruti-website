@@ -1,29 +1,16 @@
-
+import {FaHeart} from 'react-icons/fa'
 function MainWorks() {
     
 
     return (
         <div id='mainDiv'>
-            <div id='main' style={mainStyle}>
-                <h1 class="prakruti" style={{ color: 'linear-gradient(red, yellow)' }}>PRAKRUTI</h1>
-                <p>The Nature Club of NIT Tiruchippalli</p>
-                <p>All creatures deserve a life free from fear and pain. It's true that the greatness of a nation can be judged by the way its animals are treated. So show some love towards the flora and fauna around you to make ours a lovely nation</p>
-            </div>
-            
+        <div id='main'>
+            <h1 className="prakruti">PRAKRUTI</h1>
+            <b>The Nature Club of NIT Tiruchippalli</b>
+            <p>All creatures deserve a life free from fear and pain. It's true that the greatness of a nation can be judged by the way its animals are treated. So show some love towards the flora and fauna around you to make ours a lovely nation <FaHeart color='red'></FaHeart></p>
         </div>
-
+        </div>
     );
 
-}
-const mainWorksBG = 'assets/photos/recentWorksBG.png'
-const mainStyle = {
-    background: `pink url(${mainWorksBG}) no-repeat center`,
-    backgroundSize: 'cover',
-    textAlign: 'center',
-    zIndex: '1',
-    width: '70%',
-    maxWidth: '1100px',
-    borderRadius: '10px',
-    height: '65vh',
 }
 export default MainWorks

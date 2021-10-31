@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,32 +11,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <title>Prakruti NITT</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id='pageLoader'>
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script>
-      const pageLoader = document.querySelector('#pageLoader');
-      window.addEventListener('load', () => {
-        pageLoader.style.display = 'none'
-      })
+        const pageLoader = document.querySelector('#pageLoader');
+        if (window.location.pathname == '/members') {
+            pageLoader.style.display = 'none'
+        } else {
+            pageLoader.style.display = 'block'
+        }
+        window.addEventListener('load', () => {
+            pageLoader.style.display = 'none'
+        })
     </script>
     <script>
-      (function(d, s, id) {
-        var js;
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://embedsocial.com/cdn/ht.js";
-        d.getElementsByTagName("head")[0].appendChild(js);
-      }(document, "script", "EmbedSocialHashtagScript"));
+        (function(d, s, id) {
+            var js;
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://embedsocial.com/cdn/ht.js";
+            d.getElementsByTagName("head")[0].appendChild(js);
+        }(document, "script", "EmbedSocialHashtagScript"));
     </script>
 
-  </body>
+</body>
 
 </html>

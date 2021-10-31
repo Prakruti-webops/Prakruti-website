@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
     Navbar,
     NavbarBrand,
@@ -6,31 +5,34 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
-import { FaChevronCircleDown } from 'react-icons/fa'
+import {FaChevronCircleDown} from 'react-icons/fa'
+
 const NavBar = () => {
-    // const [path, setPath] = useState('/')
     const clubLogo = 'logo.png'
-    const membersLogo = 'assets/photos/membersLogo.png'
-    const changePath = () => {
-        // setPath('/members')
-        // document.title = 'Prakruti NITT-Members'
-    }
-    return (
-        <div >
-            <Navbar color="light" light expand="md">
-                <NavbarBrand href="/" onClick={changePath}><img src={clubLogo} alt='club logo' style={{ width: '15vw', minWidth: '150px' }} /></NavbarBrand>
-
-                <Nav className="ms-auto" navbar>
-                    <NavItem>
-                            <NavLink href="/members" onClick={changePath} ><h3 className='me-3'>Members<img src={membersLogo} alt='club logo' style={{ width: '70px' }} /></h3></NavLink>
+    
+        return (
+            <>
+                <Navbar color="light" light expand="md"style={{zIndex:'1000'}}>
+                    <NavbarBrand href="/"><img src={clubLogo} style={{width:'100px'}} alt='club logo'  /></NavbarBrand>
+    
+                    <Nav className="ms-auto" navbar>
+    
+                        <NavItem>
+                            {window.location.pathname === '/members'?<><NavItem><NavLink href="/" ><div className='fas fa-home'></div></NavLink></NavItem>
+                            <NavItem><NavLink href="/members" ><div className='fas fa-users'></div><div className='line'></div></NavLink></NavItem></>:<><NavItem><NavLink href="/" ><div className='fas fa-home'></div><div className='line'></div></NavLink></NavItem><NavItem><NavLink href="/members" ><div className='fas fa-users'></div></NavLink></NavItem>
+                            </>}
+                        
                         </NavItem>
-
-                </Nav>
-
-            </Navbar>
-            <a href="#contacts" className='contactsIcon'><FaChevronCircleDown style={footerDownStyle}></FaChevronCircleDown></a>
-        </div>
-    );
+    
+    
+                    </Nav>
+    
+                </Navbar>
+                <a href="#contacts" id="contactsIcon" style={footerDownStyle}><FaChevronCircleDown className='chevron'></FaChevronCircleDown></a>
+            </>
+        );
+    
+    
 }
 const footerDownStyle = {
     fontSize: '3rem',
