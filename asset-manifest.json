@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Prakruti-website/static/css/main.90f12e9b.chunk.css",
-    "main.js": "/Prakruti-website/static/js/main.a0c6ebe6.chunk.js",
-    "main.js.map": "/Prakruti-website/static/js/main.a0c6ebe6.chunk.js.map",
-    "runtime-main.js": "/Prakruti-website/static/js/runtime-main.665065e4.js",
-    "runtime-main.js.map": "/Prakruti-website/static/js/runtime-main.665065e4.js.map",
-    "static/css/2.8c0e6b67.chunk.css": "/Prakruti-website/static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.83b70582.chunk.js": "/Prakruti-website/static/js/2.83b70582.chunk.js",
-    "static/js/2.83b70582.chunk.js.map": "/Prakruti-website/static/js/2.83b70582.chunk.js.map",
-    "index.html": "/Prakruti-website/index.html",
-    "static/css/2.8c0e6b67.chunk.css.map": "/Prakruti-website/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.90f12e9b.chunk.css.map": "/Prakruti-website/static/css/main.90f12e9b.chunk.css.map",
-    "static/js/2.83b70582.chunk.js.LICENSE.txt": "/Prakruti-website/static/js/2.83b70582.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Prakruti-website/static/media/page-loader-fish.cf06c0d2.gif"
+    "main.css": "/static/css/main.e5d29ab0.chunk.css",
+    "main.js": "/static/js/main.4a23d779.chunk.js",
+    "main.js.map": "/static/js/main.4a23d779.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82ceef89.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82ceef89.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.0eb421d0.chunk.js": "/static/js/2.0eb421d0.chunk.js",
+    "static/js/2.0eb421d0.chunk.js.map": "/static/js/2.0eb421d0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.e5d29ab0.chunk.css.map": "/static/css/main.e5d29ab0.chunk.css.map",
+    "static/js/2.0eb421d0.chunk.js.LICENSE.txt": "/static/js/2.0eb421d0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/recentWorksBG.f717786b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.665065e4.js",
+    "static/js/runtime-main.82ceef89.js",
     "static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.83b70582.chunk.js",
-    "static/css/main.90f12e9b.chunk.css",
-    "static/js/main.a0c6ebe6.chunk.js"
+    "static/js/2.0eb421d0.chunk.js",
+    "static/css/main.e5d29ab0.chunk.css",
+    "static/js/main.4a23d779.chunk.js"
   ]
 }
