@@ -5,12 +5,12 @@ function Footer() {
     const clubLinkedIn = ''
     return (
         <div>
-            <a href="#"><FaChevronCircleUp style={footerUpStyle}></FaChevronCircleUp></a>
+            <a href="#"id='navbarIcon'><FaChevronCircleUp className='chevron chevron-up'></FaChevronCircleUp></a>
 
-            <footer style={footerStyle} id='contacts'>
+            <footer id='contacts'>
                 <img src="assets/photos/deer.png" alt="Deer" style={imgStyle} />
 
-                <div style={contactStyle}>
+                <div id='contactStyle'>
                     <div>
                         <h2>
                             REACH US
@@ -34,18 +34,6 @@ function Footer() {
         </div>
     )
 }
-const footerUpStyle = {
-    margin: '20px',
-    fontSize: '3rem',
-    color: 'white',
-    position: 'relative',
-    zIndex: '1'
-}
-const footerStyle = {
-    position: 'relative',
-    background: 'rgb(248,249,250)',
-    padding: '30px 50px',
-}
 const imgStyle = {
     position: 'absolute',
     bottom: '0',
@@ -55,13 +43,7 @@ const imgStyle = {
     maxWidth: '450px'
 
 }
-const contactStyle = {
-    width: '40vw',
-    minWidth: '420px',
-    display: 'flex',
-    justifyContent: 'space-around',
-    marginRight: '60px'
-}
+
 const socialIconStyle = {
     fontSize: '40px',
     color: 'green',

@@ -5,7 +5,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9618036402",
     "InstagramProfile": "",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": ""
   },
   {
     "Name": "Bhoopendra Singh",
@@ -13,7 +14,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1csTyBW8w2YXeigoIPRRojmzzoJ4x97he",
     "WhatsAppContact": "8384022319",
     "InstagramProfile": "https://www.instagram.com/_boopendra",
-    "LinkedinProfile": "https://www.linkedin.com/in/bhoopendra-singh-3282a984"
+    "LinkedinProfile": "https://www.linkedin.com/in/bhoopendra-singh-3282a984",
+    "PicturePath": "assets/members/bhoopendra singh-min.jpeg"
   },
   {
     "Name": "Vanam Nagasri",
@@ -21,7 +23,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1kyg1fU7lV4ZpLRdOYk7jOKvcmpzXObi5",
     "WhatsAppContact": "9392416081",
     "InstagramProfile": "https://instagram/vnsri_17www..com",
-    "LinkedinProfile": "https://www.linkedin.com/in/vanam-nagasri-348ba3214"
+    "LinkedinProfile": "https://www.linkedin.com/in/vanam-nagasri-348ba3214",
+    "PicturePath": "assets/members/Vanam Nagasri-min.jpg"
   },
   {
     "Name": "Abdullah Al Noman",
@@ -29,7 +32,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1o9ROT3ZuXL65VENofdGDc5xBdvvxAxGQ",
     "WhatsAppContact": "+8801832327075",
     "InstagramProfile": "https://www.instagram.com/noman_weasley_?r=nametag",
-    "LinkedinProfile": "https://www.linkedin.com/in/abdullah-al-noman-989353214"
+    "LinkedinProfile": "https://www.linkedin.com/in/abdullah-al-noman-989353214",
+    "PicturePath": "assets/members/Abdullah Al Noman-min.jpg"
   },
   {
     "Name": "Siva Sankari J",
@@ -37,7 +41,8 @@
     "YourPicture": "",
     "WhatsAppContact": "8870743592",
     "InstagramProfile": "https://www.instagram.com/Sivani Jeyabalan",
-    "LinkedinProfile": "https://www.linkedin.com/in/Siva Sankari Jeyabalan"
+    "LinkedinProfile": "https://www.linkedin.com/in/Siva Sankari Jeyabalan",
+    "PicturePath": ""
   },
   {
     "Name": "KSHITIJ VERMA",
@@ -45,7 +50,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1Y4YU3_i96n47jSjOc8JsacvMJZP-UvUG",
     "WhatsAppContact": "7905123630",
     "InstagramProfile": "https://www.instagram.com/kshitijverma25/",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Kshitij Verma cms-min.jpg"
   },
   {
     "Name": "Naveen Ambarish M",
@@ -53,7 +59,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1ulY03fvZ5BUXu5pWd2RcbhLkGEObjGEJ",
     "WhatsAppContact": "9578214070",
     "InstagramProfile": "",
-    "LinkedinProfile": "https://www.linkedin.com/in/naveen-ambarish-murugavelan-176ab1203"
+    "LinkedinProfile": "https://www.linkedin.com/in/naveen-ambarish-murugavelan-176ab1203",
+    "PicturePath": "assets/members/Naveen Ambarish Murugavelan-min.jpg"
   },
   {
     "Name": "Venkat Subramanian",
@@ -61,7 +68,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=10J5om7fJZ4PyNE1zi3Iwefgd6GBI6lJq",
     "WhatsAppContact": "9445613918",
     "InstagramProfile": "https://www.instagram.com/venkatpadman/",
-    "LinkedinProfile": "https://www.linkedin.com/in/venkatspadman"
+    "LinkedinProfile": "https://www.linkedin.com/in/venkatspadman",
+    "PicturePath": "assets/members/Venkat SP-min.jpg"
   },
   {
     "Name": "VIGNESH V L",
@@ -69,7 +77,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1ScKopQGts1_x7bkZp_QilNK-x9JiwTzj",
     "WhatsAppContact": "9786155295",
     "InstagramProfile": "https://www.instagram.com/nova_pyro_",
-    "LinkedinProfile": "https://www.linkedin.com/in/Vignesh V L"
+    "LinkedinProfile": "https://www.linkedin.com/in/Vignesh V L",
+    "PicturePath": "assets/members/Vignesh venki-min.jpg"
   },
   {
     "Name": "Gautham Karun Sankar",
@@ -77,7 +86,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1-52xCMBmpzd6aFKtE0N3lyf5EoTaMvp8",
     "WhatsAppContact": "9497075751",
     "InstagramProfile": "",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Gautham Sanker-min.jpg"
   },
   {
     "Name": "Rishev Ranjan",
@@ -85,7 +95,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1hK-D2Iak-Avx3VU6gUWvBoRdh_caOFqZ",
     "WhatsAppContact": "7904188914",
     "InstagramProfile": "https://www.instagram.com/rishev_007",
-    "LinkedinProfile": "https://www.linkedin.com/in/Rishev Ranjan"
+    "LinkedinProfile": "https://www.linkedin.com/in/Rishev Ranjan",
+    "PicturePath": "assets/members/Rishev Ranjan-min.jpg"
   },
   {
     "Name": "Ram Prakash P",
@@ -93,7 +104,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1Sl6kc4QZBorLJzDeO5JirCDWZjQyF7R0",
     "WhatsAppContact": "9788338890",
     "InstagramProfile": "https://www.instagram.com/itz_ramprakash/",
-    "LinkedinProfile": "https://www.linkedin.com/in/ram-prakash-951307128/"
+    "LinkedinProfile": "https://www.linkedin.com/in/ram-prakash-951307128/",
+    "PicturePath": "assets/members/Ram_Prakash - Ram Prakash-min.jpg"
   },
   {
     "Name": "Azhaghu Roopesh M",
@@ -101,7 +113,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1_WAPlPGam6-A0zybaQE-7fYTsCdRobMv",
     "WhatsAppContact": "9585432996",
     "InstagramProfile": "https://www.instagram.com/a.roopesh1412/",
-    "LinkedinProfile": "https://www.linkedin.com/in/aroopeshm/"
+    "LinkedinProfile": "https://www.linkedin.com/in/aroopeshm/",
+    "PicturePath": "assets/members/A Roopesh M-min.png"
   },
   {
     "Name": "Aman chandra",
@@ -109,7 +122,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1kjXpZA6pOQ0ZuBI4plebpBYDvY906kLK",
     "WhatsAppContact": "8126944725",
     "InstagramProfile": "https://instagram.com/prototype",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Aman chandra-min.jpg"
   },
   {
     "Name": "Ragasudha Burilli",
@@ -117,7 +131,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9390173703",
     "InstagramProfile": "https://www.instagram.com/ragasudha_2019",
-    "LinkedinProfile": "https://www.linkedin.com/in/ragasudha-burilli-a6b25b1b7"
+    "LinkedinProfile": "https://www.linkedin.com/in/ragasudha-burilli-a6b25b1b7",
+    "PicturePath": ""
   },
   {
     "Name": "Abhijit Gupta",
@@ -125,7 +140,8 @@
     "YourPicture": "",
     "WhatsAppContact": "7457840911",
     "InstagramProfile": "https://www.instagram.com/abhijitg521",
-    "LinkedinProfile": "https://www.linkedin.com/in/abhijitg521"
+    "LinkedinProfile": "https://www.linkedin.com/in/abhijitg521",
+    "PicturePath": ""
   },
   {
     "Name": "Preethika",
@@ -133,7 +149,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1T-yzjjOhfJ5IPngwzJn6h-cNmNOKfSJ9",
     "WhatsAppContact": "9943805452",
     "InstagramProfile": "https://www.instagram.com/preethikaj02",
-    "LinkedinProfile": "www.linkedin.com/in/preethika-j-8a954a217"
+    "LinkedinProfile": "www.linkedin.com/in/preethika-j-8a954a217",
+    "PicturePath": "assets/members/Preethika J-min.jpeg"
   },
   {
     "Name": "Rahul Raj",
@@ -141,7 +158,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1xcYCt1oW_9xUdrNvblxwEsbaDYCRjWkG",
     "WhatsAppContact": "7307596531",
     "InstagramProfile": "https://www.instagram.com/r_o_w_d_y__",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Rahul Raj-min.jpg"
   },
   {
     "Name": "Maithreyan.G",
@@ -149,7 +167,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1u-_hNG2DbQEreHSYUL_uEPxmnwucOaRB",
     "WhatsAppContact": "9842864688",
     "InstagramProfile": "https://www.instagram.com/maithreyan.g",
-    "LinkedinProfile": "https://www.linkedin.com/in/Maithreyan G"
+    "LinkedinProfile": "https://www.linkedin.com/in/Maithreyan G",
+    "PicturePath": "assets/members/Maithreyan G-min.png"
   },
   {
     "Name": "Poncibi B",
@@ -157,7 +176,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1BstfmwxoI-tK24qo4jIVnWjPOqhYNEE9",
     "WhatsAppContact": "9790171387",
     "InstagramProfile": "https://www.instagram.com/cibi_387",
-    "LinkedinProfile": "https://www.linkedin.com/in/Poncibi B"
+    "LinkedinProfile": "https://www.linkedin.com/in/Poncibi B",
+    "PicturePath": "assets/members/Cibi B-min.jpg"
   },
   {
     "Name": "DEEPTHI S V",
@@ -165,7 +185,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1mnJRjwR-cAiiweWKXvyAkKAn0_1lEm1J",
     "WhatsAppContact": "9751240140",
     "InstagramProfile": "https://www.instagram.com/deepthi1365",
-    "LinkedinProfile": "https://www.linkedin.com/in/Deepthi S V"
+    "LinkedinProfile": "https://www.linkedin.com/in/Deepthi S V",
+    "PicturePath": "assets/members/deepthi s v-min.jpg"
   },
   {
     "Name": "Sreevamshi",
@@ -173,7 +194,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=12-1CbZJwkMW_at51NAdjYNqcLmepPEHn",
     "WhatsAppContact": "8186823640",
     "InstagramProfile": "https://www.instagram.com/vamshi_.__",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Sree Vamshi-min.jpg"
   },
   {
     "Name": "RISHABH GROVER",
@@ -181,7 +203,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1JvBmZdKijuyyAIEzX8iSp7ywehzNwyNQ",
     "WhatsAppContact": "9205744594",
     "InstagramProfile": "",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/RISHABH GROVER PHOTO - Rishabh Grover-min.jpeg"
   },
   {
     "Name": "Keval Rawat",
@@ -189,7 +212,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1kdFFAE0XqgOe3Vq3zlAbo5SK1aZXlq-6",
     "WhatsAppContact": "8770420074",
     "InstagramProfile": "https://www.instagram.com/kvl_rwt/",
-    "LinkedinProfile": "https://www.linkedin.com/in/keval-rawat-355414133"
+    "LinkedinProfile": "https://www.linkedin.com/in/keval-rawat-355414133",
+    "PicturePath": "assets/members/keval ravat-min.jpg"
   },
   {
     "Name": "SAI GANESH S",
@@ -197,7 +221,8 @@
     "YourPicture": "",
     "WhatsAppContact": "8489386161",
     "InstagramProfile": "",
-    "LinkedinProfile": "https://www.linkedin.com/in/saiganeshsankaran"
+    "LinkedinProfile": "https://www.linkedin.com/in/saiganeshsankaran",
+    "PicturePath": ""
   },
   {
     "Name": "R Bhavya",
@@ -205,7 +230,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9952822908",
     "InstagramProfile": "https://www.instagram.com/bhavya_rp https://www.instagram.com/bhavya_rp?r=nametag",
-    "LinkedinProfile": "https://www.linkedin.com/in/bhavya-r-67546821a"
+    "LinkedinProfile": "https://www.linkedin.com/in/bhavya-r-67546821a",
+    "PicturePath": ""
   },
   {
     "Name": "Sanjana kataru",
@@ -213,7 +239,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1n7vQEZ3SkyHwZVWA9j2Px3sSWWZWAzOQ",
     "WhatsAppContact": "7989906858",
     "InstagramProfile": "https://www.instagram.com/Sanjana_kataru",
-    "LinkedinProfile": "https://www.linkedin.com/in/Sanjana kataru"
+    "LinkedinProfile": "https://www.linkedin.com/in/Sanjana kataru",
+    "PicturePath": "assets/members/sanjana - CK-min.jpg"
   },
   {
     "Name": "Ajay badugu",
@@ -221,7 +248,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9959811354",
     "InstagramProfile": "",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": ""
   },
   {
     "Name": "Amal M S",
@@ -229,7 +257,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1TTKSrlHLlNjgx_voV6n96zWHZektFG57",
     "WhatsAppContact": "7592935032",
     "InstagramProfile": "",
-    "LinkedinProfile": "https://www.linkedin.com/in/amalms"
+    "LinkedinProfile": "https://www.linkedin.com/in/amalms",
+    "PicturePath": "assets/members/Amal M S-min.jpg"
   },
   {
     "Name": "Anshu",
@@ -237,7 +266,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1zU5o_1auvMRNmAZAD30xV5O1tjlxLxzD",
     "WhatsAppContact": "9649563018",
     "InstagramProfile": "https://www.instagram.com/theanshu_gupta",
-    "LinkedinProfile": "https://www.linkedin.com/in/anshu-980b07201"
+    "LinkedinProfile": "https://www.linkedin.com/in/anshu-980b07201",
+    "PicturePath": "assets/members/Anshu-min.jpg"
   },
   {
     "Name": "Ritesh Ranjan",
@@ -245,7 +275,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1GMY0VMX783cLwQRu_dI8LIo2ICZYvY6f",
     "WhatsAppContact": "9608071680",
     "InstagramProfile": "https://www.instagram.com/veer_ritesh",
-    "LinkedinProfile": "https://www.linkedin.com/in/riteshranjan01"
+    "LinkedinProfile": "https://www.linkedin.com/in/riteshranjan01",
+    "PicturePath": "assets/members/Ritesh Ranjan-min.jpg"
   },
   {
     "Name": "Bishal Raj Singh",
@@ -253,7 +284,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1AHBYb1o9KmK--Czv79NdK3yZpX3JGX-6",
     "WhatsAppContact": "6290771511",
     "InstagramProfile": "https://www.instagram.com/bishalrajsingh21",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Bishal Raj Singh-min.jpg"
   },
   {
     "Name": "Aby M Philip",
@@ -261,7 +293,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=10EydKA9zLcMh-24hEHqNeJ8a5XZERJgI",
     "WhatsAppContact": "9446363198",
     "InstagramProfile": "https://www.instagram.com/aby_philips_",
-    "LinkedinProfile": "https://www.linkedin.com/in/aby-m-philip-420329126"
+    "LinkedinProfile": "https://www.linkedin.com/in/aby-m-philip-420329126",
+    "PicturePath": "assets/members/Aby Philip-min.jpeg"
   },
   {
     "Name": "Avinash Balaji",
@@ -269,7 +302,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9361382825",
     "InstagramProfile": "https://www.instagram.com/avinashbalaji_25",
-    "LinkedinProfile": "https://www.linkedin.com/in/Avinash Balaji"
+    "LinkedinProfile": "https://www.linkedin.com/in/Avinash Balaji",
+    "PicturePath": ""
   },
   {
     "Name": "DEEPMALA KUMARI",
@@ -277,7 +311,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9113768358",
     "InstagramProfile": "",
-    "LinkedinProfile": "https://www.linkedin.com/in/deepmala-kumari-6064b3157"
+    "LinkedinProfile": "https://www.linkedin.com/in/deepmala-kumari-6064b3157",
+    "PicturePath": ""
   },
   {
     "Name": "Gedela Balaaditya Kumar",
@@ -285,7 +320,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1WVWXN53-7sGyIuHbRKKnT-_HStSww64y",
     "WhatsAppContact": "8688479929",
     "InstagramProfile": "https://www.instagram.com/aditya_gedela",
-    "LinkedinProfile": "https://www.linkedin.com/in/GEDELA BALAADITYA KUMAR"
+    "LinkedinProfile": "https://www.linkedin.com/in/GEDELA BALAADITYA KUMAR",
+    "PicturePath": "assets/members/GEDELA BALAADITYA KUMAR-min.jpg"
   },
   {
     "Name": "S Janaki Raman",
@@ -293,7 +329,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1iOnaLRahdc81Hl1ec7vc_1P25PrHqH86",
     "WhatsAppContact": "6301432978",
     "InstagramProfile": "https://www.instagram.com/janaki_ram_187/",
-    "LinkedinProfile": "https://www.linkedin.com/in/janaki-raman-8791a81ab"
+    "LinkedinProfile": "https://www.linkedin.com/in/janaki-raman-8791a81ab",
+    "PicturePath": "assets/members/janaki raman-min.jpg"
   },
   {
     "Name": "M.Pushpa",
@@ -301,7 +338,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1NQLqNghV6tNO9pLyjyoFFhZIhXvhJTy-",
     "WhatsAppContact": "8688389947",
     "InstagramProfile": "https://www.instagram.com/pushpa_2211",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/Pushpa Nitt-min.jpg"
   },
   {
     "Name": "Adrish Ray",
@@ -309,7 +347,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1on9NlH9jMoqYbVPQW_tL8ctI8nEfFqox",
     "WhatsAppContact": "6383663639",
     "InstagramProfile": "https://www.instagram.com/adrish.ray",
-    "LinkedinProfile": "linkedin.com/in/adrish-ray-3868a3199"
+    "LinkedinProfile": "linkedin.com/in/adrish-ray-3868a3199",
+    "PicturePath": "assets/members/Adrish Ray-min.jpg"
   },
   {
     "Name": "Yuvaraja P",
@@ -317,7 +356,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1LTBm4x1huyjvGOYjLeuDQsXYUgcSu3pF",
     "WhatsAppContact": "8940744982",
     "InstagramProfile": "https://www.instagram.com/yuvaraja_p",
-    "LinkedinProfile": ""
+    "LinkedinProfile": "",
+    "PicturePath": "assets/members/yuva raj-min.jpg"
   },
   {
     "Name": "Balamurukan R",
@@ -325,7 +365,8 @@
     "YourPicture": "",
     "WhatsAppContact": "8144488716",
     "InstagramProfile": "https://www.instagram.com/craze_knocks",
-    "LinkedinProfile": "https://www.linkedin.com/in/balamurukan-r-b1746a20b"
+    "LinkedinProfile": "https://www.linkedin.com/in/balamurukan-r-b1746a20b",
+    "PicturePath": ""
   },
   {
     "Name": "Sukumar P",
@@ -333,7 +374,8 @@
     "YourPicture": "",
     "WhatsAppContact": "9632964104",
     "InstagramProfile": "https://www.instagram.com/01.sk.p",
-    "LinkedinProfile": "https://www.linkedin.com/in/sukumar-p-89a97b17b"
+    "LinkedinProfile": "https://www.linkedin.com/in/sukumar-p-89a97b17b",
+    "PicturePath": ""
   },
   {
     "Name": "Lokesh Dange",
@@ -341,7 +383,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1Tcws2cSa8WjJU65Q23c54-s1DMOu7Vc_",
     "WhatsAppContact": "7588658334",
     "InstagramProfile": "www.instagram.com/god_of_mischief__loki/",
-    "LinkedinProfile": "www.linkedin.com/in/lokesh-dange-83ab09120"
+    "LinkedinProfile": "www.linkedin.com/in/lokesh-dange-83ab09120",
+    "PicturePath": "assets/members/Lokesh Dange-min.JPG"
   },
   {
     "Name": "Rajat Chandra",
@@ -349,7 +392,8 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=1yfhWG_obQpUeMfnWjU_upgIFlxLKh6jz",
     "WhatsAppContact": "8602716587",
     "InstagramProfile": "https://www.instagram.com/RajatChandra07",
-    "LinkedinProfile": "https://www.linkedin.com/in/Rajat Chandra"
+    "LinkedinProfile": "https://www.linkedin.com/in/Rajat Chandra",
+    "PicturePath": "assets/members/Rajat Chandra - Rajat Chandra-min.jpg"
   },
   {
     "Name": "Krishna Kishore M",
@@ -357,6 +401,7 @@
     "YourPicture": "https://drive.google.com/uc?export=view&id=19J6Swc1dHqxdBEEH1PGAotvOxY4MSW66",
     "WhatsAppContact": "9551738940",
     "InstagramProfile": "https://www.instagram.com/invites/contact/?i=fbw2lh6qluds&utm_content=3dxvccz",
-    "LinkedinProfile": "https://www.linkedin.com/in/krishna-kishore-730abb9a"
+    "LinkedinProfile": "https://www.linkedin.com/in/krishna-kishore-730abb9a",
+    "PicturePath": "assets/members/Krishna Kishore (1)-min.jpg"
   }
 ]

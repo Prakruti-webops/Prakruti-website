@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
     Navbar,
     NavbarBrand,
@@ -6,22 +5,22 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+import {FaChevronCircleDown} from 'react-icons/fa'
+
 const NavBar = () => {
-    // const [path, setPath] = useState('/')
     const clubLogo = 'logo.png'
-    const membersLogo = 'assets/photos/membersLogo.png'
-    var navItems;
     
         return (
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/"><img src={clubLogo} id='prakrutiImg' alt='club logo' style={{ minWidth:'150px' }} /></NavbarBrand>
+            <>
+                <Navbar color="light" light expand="md"style={{zIndex:'1000'}}>
+                    <NavbarBrand href="/"><img src={clubLogo} style={{width:'100px'}} alt='club logo'  /></NavbarBrand>
     
                     <Nav className="ms-auto" navbar>
     
                         <NavItem>
-                            {window.location.pathname === '/members'?<><NavLink href="/" ><div className='fas fa-home'></div></NavLink>
-                            <NavLink href="/members" ><div className='fas fa-users'></div><div className='line'></div></NavLink></>:<><NavLink href="/" ><div className='fas fa-home'></div><div className='line'></div></NavLink>
-                            <NavLink href="/members" ><div className='fas fa-users'></div></NavLink></>}
+                            {window.location.pathname === '/members'?<><NavItem><NavLink href="/" ><div className='fas fa-home'></div></NavLink></NavItem>
+                            <NavItem><NavLink href="/members" ><div className='fas fa-users'></div><div className='line'></div></NavLink></NavItem></>:<><NavItem><NavLink href="/" ><div className='fas fa-home'></div><div className='line'></div></NavLink></NavItem><NavItem><NavLink href="/members" ><div className='fas fa-users'></div></NavLink></NavItem>
+                            </>}
                         
                         </NavItem>
     
@@ -29,7 +28,8 @@ const NavBar = () => {
                     </Nav>
     
                 </Navbar>
-                
+                <a href="#contacts" id="contactsIcon" style={footerDownStyle}><FaChevronCircleDown className='chevron'></FaChevronCircleDown></a>
+            </>
         );
     
     
