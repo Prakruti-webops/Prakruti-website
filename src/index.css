@@ -49,7 +49,7 @@ footer h2 {
     height: 80%;
     min-height: 300px;
     background: #e0e0e0 url("recentWorksBG.png") no-repeat center center;
-    background-size: cover;
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 30px;
     position: relative;
@@ -66,9 +66,11 @@ footer h2 {
     margin-top: 20px;
 }
 
-#main>p {
-    padding: 50px;
+#main>div {
+    margin: auto;
+    width: 90%;
     color: rgb(73, 72, 74);
+    padding: 40px;
 }
 
 #mainDiv {
@@ -77,6 +79,7 @@ footer h2 {
     position: relative;
     height: 95vh;
     min-height: 550px;
+    max-height: 675px;
     z-index: 1;
 }
 
@@ -167,6 +170,7 @@ footer h2 {
     margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 13px;
+    font-size: 18px;
     background: pink;
     box-shadow: 21px 21px 38px #bcbcbc, -21px -21px 38px #ffffff;
     padding: 40px;
@@ -365,6 +369,9 @@ footer h2 {
     .chevron {
         font-size: 2.5rem;
     }
+    #main {
+        max-height: 440px;
+    }
 }
 
 @media only screen and (max-width:469px) {
@@ -373,6 +380,10 @@ footer h2 {
     }
     .chevron {
         font-size: 2rem;
+    }
+    #main {
+        width: 90%;
+        background-size: 120% 100%;
     }
     #main>p {
         padding: 0;
@@ -390,12 +401,15 @@ footer h2 {
     #membersPage>h1 {
         font-size: 3.5rem;
     }
+    .nav-item .fas {
+        margin: 0px 2px;
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width:600px) {
     #main {
         font-size: 15px;
-        padding: 25px;
     }
     #recentWorks>h1 {
         font-size: 2rem;
