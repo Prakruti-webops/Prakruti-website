@@ -5,7 +5,7 @@ function Footer() {
     const clubLinkedIn = ''
     return (
         <div>
-            <a href="#"id='navbarIcon'><FaChevronCircleUp className='chevron chevron-up'></FaChevronCircleUp></a>
+            <a href="#contactsIcon"id='navbarIcon'><FaChevronCircleUp className='chevron chevron-up'></FaChevronCircleUp></a>
 
             <footer id='contacts'>
                 <img src="assets/photos/deer.png" alt="Deer" style={imgStyle} />
