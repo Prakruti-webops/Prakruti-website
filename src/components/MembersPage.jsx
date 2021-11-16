@@ -17,7 +17,16 @@ function MembersPage() {
 
                     </div>
                 </div>
-
+            </div>
+            <h1>Faculty Advisor</h1>
+            <div className="row">
+                <div className="memCard col-xs-6 ">
+                    <div className="memberName"><strong>Dr. Sai Krishna Mothku</strong></div>
+                    <div className=""><img className="imgMember" src="assets/saikrishna.jpg" alt='Dr. Sai Krishna Mothku' /></div>
+                    <div className="memberHandles">
+                        <div><a href="https://www.nitt.edu/home/academics/departments/cse/faculty/saikrishna/" rel='noreferrer' target='_blank'><i className="icon fas fa-globe fa-2x"></i></a></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
