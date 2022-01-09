@@ -21,14 +21,14 @@ function Footer() {
                     </div>
                     <div>
                         <h2>CONTACT </h2>
-                        <div style={nameStyle}><h3>CHITTASH</h3>
+                        <div style={nameStyle}><h2 className='contactName'>CHITTASH</h2>
                             <p>Ph.no: <b>+91 9385527609</b></p></div>
-                        <div style={nameStyle}><h3>RAM PRAKASH</h3>
+                        <div style={nameStyle}><h2 className='contactName'>RAM PRAKASH</h2>
                             <p>Ph.no: <b>+91 97883 38890</b></p></div>
 
                     </div>
                 </div>
-                <p >© PRAKRUTI 2021. All rights reserved.</p>
+                <p >© PRAKRUTI 2022. All rights reserved.</p>
 
             </footer>
         </div>

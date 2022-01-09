@@ -20,7 +20,7 @@ function MembersPage() {
             </div>
             <h1>Faculty Advisor</h1>
             <div className="row">
-                <div className="memCard col-xs-6 ">
+                <div className="memCard m-auto my-5">
                     <div className="memberName"><strong>Dr. Sai Krishna Mothku</strong></div>
                     <div className=""><img className="imgMember" src="assets/saikrishna.jpg" alt='Dr. Sai Krishna Mothku' /></div>
                     <div className="memberHandles">

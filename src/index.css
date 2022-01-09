@@ -44,6 +44,10 @@ footer h2 {
     color: rgb(0, 129, 250)
 }
 
+.contactName {
+    color: rgb(44, 44, 44)
+}
+
 #main {
     width: 80%;
     height: 80%;
@@ -86,7 +90,7 @@ footer h2 {
 .prakruti {
     font-family: 'Finger Paint', cursive;
     font-size: 95px;
-    background: -webkit-linear-gradient(rgb(13, 92, 52), rgba(82, 238, 243, 0.486), purple);
+    background: -webkit-linear-gradient(rgb(3, 156, 79), rgba(82, 238, 243, 0.486), rgb(0, 133, 221));
     letter-spacing: 15px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
