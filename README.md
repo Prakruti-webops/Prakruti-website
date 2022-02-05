@@ -5,6 +5,7 @@ This WEBAPP is developed using REACTJS
 1. public
     1. assets
         1. gifs
+        2. members
         2. photos
         3. works
 2. src

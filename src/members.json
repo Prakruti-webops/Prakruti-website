@@ -1,5 +1,24 @@
 [
   {
+    "Name":"Chittash K",
+    "Rollno":"114119026",
+    "YourPicture":"https://drive.google.com/file/d/1c37FiHfCLcs-BnsLLO9EkxI4RojAe_LA/view?usp=drivesdk",
+    "WhatsAppContact":"9385527609",
+    "InstagramProfile":"https://www.instagram.com/chittashkrish",
+    "LinkedinProfile":"https://www.linkedin.com/in/chittash-k-9145111b8",
+    "PicturePath":"assets/members/Chittash K.jpg"
+  },
+  
+  {
+    "Name": "Ram Prakash P",
+    "Rollno": "212320009",
+    "YourPicture": "https://drive.google.com/uc?export=view&id=1Sl6kc4QZBorLJzDeO5JirCDWZjQyF7R0",
+    "WhatsAppContact": "9788338890",
+    "InstagramProfile": "https://www.instagram.com/itz_ramprakash/",
+    "LinkedinProfile": "https://www.linkedin.com/in/ram-prakash-951307128/",
+    "PicturePath": "assets/members/Ram_Prakash - Ram Prakash-min.jpg"
+  },
+  {
     "Name": "Gayathree Kalaga",
     "Rollno": "102120037",
     "YourPicture": "",
@@ -97,15 +116,6 @@
     "InstagramProfile": "https://www.instagram.com/rishev_007",
     "LinkedinProfile": "https://www.linkedin.com/in/Rishev Ranjan",
     "PicturePath": "assets/members/Rishev Ranjan-min.jpg"
-  },
-  {
-    "Name": "Ram Prakash P",
-    "Rollno": "212320009",
-    "YourPicture": "https://drive.google.com/uc?export=view&id=1Sl6kc4QZBorLJzDeO5JirCDWZjQyF7R0",
-    "WhatsAppContact": "9788338890",
-    "InstagramProfile": "https://www.instagram.com/itz_ramprakash/",
-    "LinkedinProfile": "https://www.linkedin.com/in/ram-prakash-951307128/",
-    "PicturePath": "assets/members/Ram_Prakash - Ram Prakash-min.jpg"
   },
   {
     "Name": "Azhaghu Roopesh M",
@@ -261,15 +271,6 @@
     "PicturePath": "assets/members/Amal M S-min.jpg"
   },
   {
-    "Name": "Anshu",
-    "Rollno": "114120013",
-    "YourPicture": "https://drive.google.com/uc?export=view&id=1zU5o_1auvMRNmAZAD30xV5O1tjlxLxzD",
-    "WhatsAppContact": "9649563018",
-    "InstagramProfile": "https://www.instagram.com/theanshu_gupta",
-    "LinkedinProfile": "https://www.linkedin.com/in/anshu-980b07201",
-    "PicturePath": "assets/members/Anshu-min.jpg"
-  },
-  {
     "Name": "Ritesh Ranjan",
     "Rollno": "215120082",
     "YourPicture": "https://drive.google.com/uc?export=view&id=1GMY0VMX783cLwQRu_dI8LIo2ICZYvY6f",
@@ -349,33 +350,6 @@
     "InstagramProfile": "https://www.instagram.com/adrish.ray",
     "LinkedinProfile": "linkedin.com/in/adrish-ray-3868a3199",
     "PicturePath": "assets/members/Adrish Ray-min.jpg"
-  },
-  {
-    "Name": "Yuvaraja P",
-    "Rollno": "203420028",
-    "YourPicture": "https://drive.google.com/uc?export=view&id=1LTBm4x1huyjvGOYjLeuDQsXYUgcSu3pF",
-    "WhatsAppContact": "8940744982",
-    "InstagramProfile": "https://www.instagram.com/yuvaraja_p",
-    "LinkedinProfile": "",
-    "PicturePath": "assets/members/yuva raj-min.jpg"
-  },
-  {
-    "Name": "Balamurukan R",
-    "Rollno": "203420007",
-    "YourPicture": "",
-    "WhatsAppContact": "8144488716",
-    "InstagramProfile": "https://www.instagram.com/craze_knocks",
-    "LinkedinProfile": "https://www.linkedin.com/in/balamurukan-r-b1746a20b",
-    "PicturePath": ""
-  },
-  {
-    "Name": "Sukumar P",
-    "Rollno": "203420024",
-    "YourPicture": "",
-    "WhatsAppContact": "9632964104",
-    "InstagramProfile": "https://www.instagram.com/01.sk.p",
-    "LinkedinProfile": "https://www.linkedin.com/in/sukumar-p-89a97b17b",
-    "PicturePath": ""
   },
   {
     "Name": "Lokesh Dange",
